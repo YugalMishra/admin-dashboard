@@ -1,3 +1,4 @@
+/* eslint-disable import/no-cycle */
 import React, { createContext, useContext, useState } from 'react';
 
 const StateContext = createContext();
